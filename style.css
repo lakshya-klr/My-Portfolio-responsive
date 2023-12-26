@@ -721,6 +721,7 @@ x{
     COLOR:WHITE;
     position: absolute;
     right:0;
+    border:1px solid white;
     transition:1s ease;
     top: 0;;
     transform: translateX(100%);
@@ -731,7 +732,7 @@ x{
     color:white;
     margin:auto;
     width:60%;
-    background-color: green;
+/*     background-color: green; */
     text-align: center;
     font-size: 6vw;
     padding-top:2vh;
