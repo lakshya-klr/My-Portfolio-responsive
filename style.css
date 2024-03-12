@@ -7,6 +7,9 @@
     font-family: 'general sans1 medium';
     src: url('GeneralSans-Regular (1).ttf');
 }
+body{
+    width:100vw;
+}
 
 *{
     margin:0;
