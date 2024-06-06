@@ -10,7 +10,6 @@
 body{
     width:100vw;
 }
-
 *{
     margin:0;
     padding:0;
@@ -202,10 +201,16 @@ html,body{
     font-weight: normal;
     transition:ease 0.5s;
 }
+
 .division l{
     opacity:0.6;
     transition:ease 0.5s;
     text-align: left;
+}
+.division l a{
+    color:white;
+    text-decoration: none;
+
 }
 #menubutton
 {
@@ -724,18 +729,18 @@ x{
     COLOR:WHITE;
     position: absolute;
     right:0;
-    border:1px solid white;
     transition:1s ease;
     top: 0;;
     transform: translateX(100%);
     display: none;
     filter: blur(20px);
+    border: 1px solid white;
 }
 .closer{
     color:white;
     margin:auto;
     width:60%;
-/*     background-color: green; */
+    /* background-color: green; */
     text-align: center;
     font-size: 6vw;
     padding-top:2vh;
@@ -762,6 +767,13 @@ x{
 #mincircle{
     display: none;;
 }
+#mailme a{
+    color:black;
+    text-decoration: none;
+}
+#mailme a:hover{
+    color:white;
+}
 .projectminmenu{
     display: none;
     border: 1px solid #000 ;
@@ -777,6 +789,13 @@ x{
     margin-bottom: 20px;
     background-color: white;
     transition:0.5s ease;
+}
+#talk a{
+    text-decoration: none;
+    color:white;
+}
+#talk a:hover{
+    color:black;
 }
 @media only screen and (max-width:600px) {
 
@@ -855,6 +874,7 @@ x{
         justify-content: center;
         width:30vw;
     }
+
     #mincircle .circos{
         width:100%;
         justify-content: right;
