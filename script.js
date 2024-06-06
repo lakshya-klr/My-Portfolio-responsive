@@ -1,3 +1,47 @@
+
+function openbubble(){
+    window.open("https://lakshya-klr.github.io/Bubble-Game-js/");   
+}
+function opencalc(){
+    window.open("https://lakshya-klr.github.io/Calculator-Prototype/");
+}
+function opensqr(){
+    window.open("https://lakshya-klr.github.io/Calculator-Prototype/");
+}
+function opentodo(){
+    window.open("https://lakshya-klr.github.io/TO-DO-LIST/");
+}
+
+function openmir(){
+    window.open("https://lakshya-klr.github.io/Static-Miranda-Paper-Portfolio/");
+}
+function opencokeui(){
+    window.open("https://www.figma.com/design/1OwNMXSsD3vbaQNNRM9WMs/THE-COKE-PROJECT?node-id=0-1&t=dRG4GfnXDhZZL0AN-1");
+}
+function opensnkr(){
+    window.open("https://www.figma.com/design/c3d70XVVliL8HPXYksqxzH/SNKR-SHOP?node-id=0-1&t=M1hMVYsHyoJWleyA-1");
+}
+function openwfportf(){
+    window.open("https://www.figma.com/design/PxU949xBSslWKCF51PjiMS/PORTFOLIO-WIREFRAME?node-id=0-1&t=Votyyrt5q0kfohhq-1");
+}
+function openwf(){
+    window.open("https://www.figma.com/design/4E6JoN0Ec1qvrYdjQswYiH/Untitled?node-id=0-1&t=dC8bc9XJFRAl5H9B-1");
+}
+function openuii(){
+    window.open("https://www.figma.com/design/2EDv5aMM4ql4tU025JkIRI/ASSIGMENT-HOMEPAGE?node-id=0-1&t=cLF8tpZXBHAa8Cxp-1");
+}
+function openarogya(){
+    window.open("https://www.figma.com/design/0KVkOkaB9WPj0Gjhn3HcGQ/Untitled?node-id=0-1&t=sB4FErxMMdmAkCls-1");
+}
+function opencoffee(){
+    window.open("https://www.figma.com/design/x9CmAzOJfVlGr1r0E8uffH/COFFEE-PORTFOLIO?node-id=0-1&t=0GRnt3iCtNHCWC49-1");
+}
+function openspotify(){
+    window.open("https://lakshya-klr.github.io/Spotify-STATIC/");
+}
+function openinsta(){
+    window.open("https://www.instagram.com/_.laksh._13?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==");
+}
 //for lets connect i.e fifthhero
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
@@ -180,3 +224,6 @@ githubme.addEventListener("click",opengithub);
 twitterme.addEventListener("click",opentwitter);
 circlefollowup();
 headinganimation();
+function openmygit(){
+    window.open("https://github.com/lakshya-klr");
+}
