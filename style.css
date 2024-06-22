@@ -21,7 +21,7 @@ body{
     font-family: 'genral sans1';
     scroll-behavior: smooth ;
     user-select: none;
-    scrollbar-color: transparent;
+/*     scrollbar-color: transparent; */
     letter-spacing: 1px;
 }
 /* #sidebar{
