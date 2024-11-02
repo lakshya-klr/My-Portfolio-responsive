@@ -456,8 +456,9 @@ html,body{
     background-color: white;
 }
 #iphone{
+    margin:auto;
     margin-top:20px;
-    margin-left:2vw;
+    /* margin-left:2vw; */
     height:350px;
     border-radius: 24px;
     width:170px;
@@ -499,9 +500,9 @@ border-radius: 0px 0px 10px 10px;
 }
 #projectdisplay{
     /* background-color: red; */
-    height:370px;
-    width:450px;
-    margin-left:100px;    
+    /* height:370px; */
+    width:100%;
+    /* margin-left:100px;     */
 }
 .overlay{
     margin-top:20px;
@@ -802,7 +803,14 @@ x{
 }
 #talk a:hover{
     color:black;
+
 }
+@media only screen and (max-width:1500px){
+    #showcasesection{
+        display:none;
+    }
+}
+
 @media only screen and (max-width:600px) {
 
     body{
@@ -1078,4 +1086,129 @@ x{
     #fifthhero{
         height:80vh;
     }
+    #showcasesection{display: none;}
+}
+
+
+#fourthhero{
+    /* background-color: red; */
+    display: none;
+}
+.elemcontainer{
+    /* background-color: blue; */
+}
+#root{
+    /* background-color: yellow; */
+}
+#showcasesection{
+    padding-top:18vh;
+    height: 100dvh;
+    width: 100vw;
+    /* background-color: blue; */
+}
+.titlewrapper{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlewrapper span{
+    margin: auto;
+    /* background-color: yellow; */
+    padding:10px;
+    font-size: 2vh;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+}
+.spacer{
+    height: 4vh;
+    width: 100%;
+    /* background: yellow; */
+}
+.subtitlewrapper span{
+    margin: auto;
+    /* background-color: yellow; */
+    padding:10px;
+    font-size: 2vh;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+}
+.subtitlewrapper{
+    width: 60%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.leftdivision{
+    width: 50%;
+    /* background-color: green; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iphonebox span{
+    padding:10px;
+    font-size: 2vh;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+    /* background-color: yellow; */
+    justify-self: center;
+   width: 100%;
+   text-align: center;
+}
+.iphonebox{
+    /* background-color: red; */
+    width: 12vw;
+    margin-right:20px;
+    align-items: center;
+}
+.midbox span{
+    padding:10px;
+    font-size: 2vh;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+    margin:auto;
+    /* background-color: yellow; */
+}
+.rightdivision{
+    width: 50%;
+    /* background-color: green; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.divisionwrapper{
+    display: flex;
+}
+.COV{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.COV2{
+
+    margin-top: 14px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.midbox{
+    width: 44vw;
+    height: 60vh;
+    /* background-color: red; */
+}
+.midbox span{
+    width: 12vw;
+    text-align: center;
 }
