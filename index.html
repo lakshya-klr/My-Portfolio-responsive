@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laksh Porfolio</title>
     <link rel="stylesheet" href="loco.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +19,7 @@
             <a href='#firsthero'><li class="menuitem">INDEX</li></a>
             <a href='#secondhero'><li class="menuitem">SHOWCASE</li></a>
             <a href='#thirdhero'><li class="menuitem">MORE OF ME</li></a>
-            <a href='#fourthhero'><li class="menuitem">PROJECTS</li></a>
+            <a href='#showcasesection'><li class="menuitem">PROJECTS</li></a>
             <a href='#fifthhero'><li class="menuitem">CONTACT</li></a>
         </ul>
     </div>
@@ -28,13 +32,13 @@
             <a href='#'><h3 id="okay">INDEX</h3></a>
             <a href='#secondhero'><h3 id="okay">SHOWCASE</h3></a>
             <a href='#thirdhero'><h3 id="okay">MORE OF ME</h3></a>
-            <a href='#fourthhero'><h3 id="okay">PROJECTS</h3></a>
+            <a href='#showcasesection'><h3 id="okay">PROJECTS</h3></a>
             
             <a href='#fifthhero'><h3 id="okay">CONTACT</h3></a>
         </div>
     </div>
     <div id="boxer">
-        <h2><a href="my resume.pdf" download><img src="./free-download-button-1723003-1465295.png"></a></h2>
+        <h2><a href="lakshya kalra resume.pdf" download><img src="./free-download-button-1723003-1465295.png"></a></h2>
         <h6>Resume</h6>
         
     </div>
@@ -93,6 +97,7 @@
                 <div id="right"class="footcontent"><h3>DRIBBLE</h3><h3>INSTAGRAM</h3><h3>LINKEDIN</h3><h3>TWITTER</h3></div> -->
             </div>
         </div>
+
         <div class="" id="fourthhero">
             <div class="elemcontainer">
                 <div id="root" class="leaf">PROECTS</div>
@@ -206,6 +211,123 @@
                 <div class="oval" style="margin-left:5px;"><h1>&#8594;</h1><h1 style="color:white;">&#8594;</h1><h1>&#8594;</h1></div>
             </div>
         </div>
+
+
+        <div id="showcasesection">
+            <div class="titlewrapper">
+                <span>PROJECTS</span>
+            </div>
+            <!-- <div class="spacer"></div>
+            <div class="subtitlewrapper">
+                <span>DEVELOPEMENT</span>
+                <span>DESIGN BOARD</span>
+            </div> -->
+            <div class="spacer"></div>
+            <div class="divisionwrapper">
+             <div class="leftdivision">
+                <div class="iphonebox">
+                    <div class="COV"><span>BASICS</span></div>
+                    <div id="iphone">
+                        <div id="notch"></div>
+                        <div class="projectcontainer">
+                            <!-- <div class="projectminmenu">BASICS</div>
+                            <div class="projectminmenu">CLONES</div>
+                            <div class="projectminmenu">SHOWCASES</div>
+                            <div class="projectminmenu">WIREFRAMES</div>
+                            <div class="projectminmenu">POST(ers)</div>
+                            <div class="projectminmenu">FIGMA BOARD</div> -->
+                        <div onclick="openbubble()" class="project">BUBBLE GAME</div>
+                        <div class="project" onclick="opencalc()">CALCLTR</div>
+                        <div class="project" onclick="opensqr()">SQUARE ANIM</div>
+                        <div class="project" onclick="opentodo()">TO DO LIST</div>
+                        <!-- <div class="project">PROJECT 5</div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="iphonebox">
+                    <div class="COV"><span>CLONES</span></div>
+                    <div id="iphone">
+                        <div id="notch"></div>
+                        <div class="projectcontainer">
+                            <div class="project" onclick="openmir()">MIRANDA</div>
+                            <div class="project" onclick="openspotify()">SPOTIFY</div>
+                            <div class="project" onclick="openpint()">PINTEREST</div>
+                            <!-- <div class="project">PROJECT 3</div>
+                            <div class="project">PROJECT 4</div>
+                            <div class="project">PROJECT 5</div> -->
+                            </div>
+                    </div>
+                </div>
+                
+             </div>
+
+             <div class="midbox">
+                <div class="COV2">
+             <div class=" midboxleft">
+                <div class="COV"><span>SHOWCASES</span></div>
+            </div>
+            <div class=" midboxleft">
+                <div class="COV"><span>REACT </span></div>
+            </div>
+            </div>
+            <div id="projectdisplay">
+                <div class="overlay">
+                <div class="forshowcase">
+                    <div class="project" onclick="openuip()" style="margin-top:30px;">I do Dzyn</div>
+                    <div class="project" onclick="openport()">My Portfolio</div>
+                </div>
+                <div class="forwireframes">
+                    <div class="project" style="margin-top:30px;" onclick="openhs()">HS Cine portf</div>
+                    <div class="project" >Blood Bank</div>
+                </div>
+                </div>
+                <div id="displayer" class="swiper">
+                    
+                    <h4 id="hoverme">CLICK ON PROJECTS<BR>
+                    TO OPEN PROJECT WINDOW</h4>
+                    <div id="notch"></div>
+                </div>
+            </div>
+            </div>
+
+             <div class="rightdivision">
+                
+                <div class="iphonebox">
+                    <div class="COV"><span>FINE UI</span></div>
+                    <div id="iphone">
+                        <div id="notch"></div>
+                        <div class="projectcontainer">
+                            <div class="project" onclick="openuii()">LRNR UI</div>
+                            <div class="project" onclick="opencoffee()">COFFEE UI</div>
+                            <div class="project" onclick="opencokeui()">COKE UI</div>
+                            <div class="project" onclick="opensnkr()">SNKR UI</div>
+                            <!-- <div class="project">PROJECT 2</div>
+                            <div class="project">PROJECT 3</div>
+                            <div class="project">PROJECT 4</div>
+                            <div class="project">PROJECT 5</div> -->
+                            </div>
+                    </div>
+                </div>
+                <div class="iphonebox">
+                    <div class="COV"><span>FIGMA BOARD</span></div>
+                    <div id="iphone">
+                        <div id="notch"></div>
+                        <div class="projectcontainer">
+                            <div class="project" onclick="opencokeui()" id="cocacola" >COCA COLA</div>
+                            <div class="project" onclick="opensnkr()">SNKR SHOP</div>
+                            <!-- <div class="project">CLG DESC</div> -->
+                            <div class="project" onclick="openarogya()">AROGYA</div>
+                            <!-- <div class="project">EDUMINATI </div> -->
+                            </div>
+                    </div>
+                    
+                </div>
+               
+             </div>
+            </div>
+        </div>
+        
+        
         <div id="fifthhero">
             <h1 class="hidden">
                 LET'S CONNECT
@@ -235,6 +357,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
         integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
