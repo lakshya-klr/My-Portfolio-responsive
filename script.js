@@ -12,14 +12,19 @@ function opentodo(){
     window.open("https://lakshya-klr.github.io/TO-DO-LIST/");
 }
 
+function openport(){
+    window.open("https://lakshya-klr.github.io/My-Portfolio-responsive/");
+}
+
+
 function openmir(){
     window.open("https://lakshya-klr.github.io/Static-Miranda-Paper-Portfolio/");
 }
 function opencokeui(){
-    window.open("https://www.figma.com/design/1OwNMXSsD3vbaQNNRM9WMs/THE-COKE-PROJECT?node-id=0-1&t=dRG4GfnXDhZZL0AN-1");
+    window.open("https://www.figma.com/proto/1OwNMXSsD3vbaQNNRM9WMs/THE-COKE-PROJECT?node-id=0-1&t=TVrBifZr2KrtVOcm-1");
 }
 function opensnkr(){
-    window.open("https://www.figma.com/design/c3d70XVVliL8HPXYksqxzH/SNKR-SHOP?node-id=0-1&t=M1hMVYsHyoJWleyA-1");
+    window.open("https://www.figma.com/proto/c3d70XVVliL8HPXYksqxzH/SNKR-SHOP?node-id=0-1&t=en36EpubJRuEZ8c1-1");
 }
 function openwfportf(){
     window.open("https://www.figma.com/design/PxU949xBSslWKCF51PjiMS/PORTFOLIO-WIREFRAME?node-id=0-1&t=Votyyrt5q0kfohhq-1");
@@ -41,6 +46,9 @@ function openspotify(){
 }
 function openinsta(){
     window.open("https://www.instagram.com/_.laksh._13?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==");
+}
+function openpint(){
+    window.open("https://lakshya-klr.github.io/Pinterest-Clone/");
 }
 //for lets connect i.e fifthhero
 const observer = new IntersectionObserver((entries)=>{
@@ -99,6 +107,12 @@ function mailopen(){
 }
 function openlinkedin(){
     window.open("https://www.linkedin.com/in/lakshya-kalra-397332236/");
+}
+function openuip(){
+    window.open("https://lakshya-klr.github.io/UI-portfolio/");
+}
+function openhs(){
+    window.open("https://harshitsoni.netlify.app/");
 }
 function menu(){
     menubutton.style.transition = "ease 1s";
